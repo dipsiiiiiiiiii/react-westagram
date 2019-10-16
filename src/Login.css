@@ -1,0 +1,52 @@
+.loginContainer {
+  border: 1px solid #e6e6e6;
+  width: 350px;
+  height: 380px;
+  box-sizing: border-box;
+  margin: 12px auto;
+  padding: 0 20px;
+}
+
+.logoImg {
+  background-image: url(./images/logo_text.png);
+  background-size: 100%;
+  width: 180px;
+  height: 55px;
+  margin: 30px auto;
+}
+
+.loginForm {
+  width: 100%;
+  
+}
+
+.loginForm input{
+ width: 100%;
+ height: 38px;
+ font-size: 12px;
+ margin-bottom: 5px;
+ padding-left: 9px;
+ border: 1px solid #efefef;
+ background-color: #FAFAFA;
+ border-radius: 3px;
+ color: #999999;
+}
+
+.loginBtn {
+  background-color: #3897f0;
+  opacity: 0.3;
+  width: 100%;
+  height: 30px;
+  margin-top: 7px;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  font-weight: 600;
+} 
+
+.lostPw{
+  color:#003569;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 90px;
+}
