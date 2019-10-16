@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    padding: 0;
+    outline: none;
+    background-size: 100%
+}
+
+textarea:focus {
+    outline:none;
+}
+
+input:focus {
+    outline:none;
+}
+
+button:focus {
+    outline:none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+}

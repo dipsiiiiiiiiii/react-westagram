@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Login.css';
+import './Common.css';
 
 import LoginForm from "./components/LoginForm"
 import LogoImg from "./components/LogoImg"
