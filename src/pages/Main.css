@@ -35,7 +35,7 @@ nav {
 }
 
 .mainlogoImg {
-    background-image: url("./images/logo_text.png");
+    background-image: url("/src/images/logo_text.png");
     background-size: 100%;
     width: 103px;
     margin: 0;

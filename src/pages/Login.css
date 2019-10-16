@@ -8,7 +8,7 @@
 }
 
 .logoImg {
-  background-image: url(./images/logo_text.png);
+  background-image: url(/src/images/logo_text.png);
   width: 175px;
   height: 55px;
   margin: 20px auto;
@@ -18,7 +18,7 @@
   width: 100%;
 }
 
-.loginForm input{
+.userInput {
  width: 100%;
  height: 38px;
  font-size: 12px;

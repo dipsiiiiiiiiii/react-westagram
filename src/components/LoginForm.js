@@ -36,14 +36,14 @@ class LoginForm extends Component {
                 <UserInput
                     onChange={this.handleChange}
                     value={this.state.userId}
-                    className="inputId"
+                    className="userInput"
                     type="text"
                     placeholder="전화번호, 사용자 이름 또는 이메일"
                     name="userId"/>
                 <UserInput
                     onChange={this.handleChange}
                     value={this.state.userPw}
-                    className="inputPassword"
+                    className="userInput"
                     type="password"
                     placeholder="비밀번호"
                     name="userPw" />

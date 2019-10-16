@@ -1,0 +1,111 @@
+.mainRight {
+    width: 293px;
+    margin-left: 30px;
+}
+
+.rightProfile {
+    display: flex;
+    padding: 5px 0;
+}
+
+.rightProfileImg {
+    background-image: url("https://scontent-icn1-1.cdninstagram.com/vp/91a4a6cf425350138a196ba4df885b9b/5DFE2D10/t51.2885-19/s150x150/64219646_866712363683753_7365878438877462528_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com");
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+
+.rightProfileBox {
+    padding: 10px;
+}
+
+.rightProfileUserId {
+    color: #262626;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rightProfileUserName {
+    color: #999999;
+    font-size: 12px;
+}
+
+.rightStory {
+    height: 223px;
+    width: 100%;
+    border: 1px solid rgb(223, 223, 223);
+    margin-top: 5px;
+    border-radius: 3px;
+    position: relative;
+    z-index: -1;
+}
+
+.rightStory .rightProfileImg {
+    width: 34px;
+    height: 34px;
+}
+
+.firstStory, .secondStory, .thirdStory {
+    display: flex;
+    padding: 5px 7px 2px 10px;
+    height: 44px;
+    margin-top: 4px;
+}
+
+.rightStory .rightProfileBox {
+    padding: 0 8px;
+}
+
+.rightRecommend {
+    height: 223px;
+    width: 100%;
+    border: 1px solid rgb(223, 223, 223);
+    margin: 12px 0;
+    position: relative;
+}
+
+.rightRecommendTop {
+    height: 19px;
+    margin-top: 12px;
+    padding: 4px 16px;
+}
+
+.rightRecommendTopTitle {
+    color: #999999;
+    font-size: 14px;
+}
+
+.rightRecommendTopSeeAll {
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    right: 5px;
+}
+
+.rightRecommend .rightProfileImg {
+    width: 34px;
+    height: 34px;
+}
+
+.rightRecommend .rightProfileBox {
+    padding: 0 8px;
+}
+
+.firstRecommend, .secondRecommend, .thirdRecommend {
+    display: flex;
+    padding: 1px 7px 2px 20px;
+    height: 44px;
+    margin-top: 8px;
+}
+
+.infoList {
+    width: 293px;
+    height: 36px;
+}
+
+.infoList li {
+    color: #C7C7C7;
+    font-size: 11px;
+    display: inline-block;
+}
