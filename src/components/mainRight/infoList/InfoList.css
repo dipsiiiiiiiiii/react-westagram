@@ -1,0 +1,11 @@
+.infoList {
+    width: 293px;
+    height: 36px;
+}
+
+.infoList li {
+    color: #C7C7C7;
+    font-size: 11px;
+    display: inline-block;
+    margin-right: 5px;
+}

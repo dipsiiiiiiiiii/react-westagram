@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import '../pages/Login.css';
-import './Common.css';
+import './Login.css';
+import '../../styles/Common.css';
 
-import LoginForm from "../components/LoginForm"
-import LogoImg from "../components/LogoImg"
+import LoginForm from "../../components/loginForm/LoginForm"
+import LogoImg from "../../components/loginForm/LogoImg"
 
 class Login extends Component {
   render() {

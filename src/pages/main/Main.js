@@ -1,9 +1,9 @@
 import React from "react"
-import Nav from "../nav/Nav"
-import Feeds from "../feeds/Feeds"
-import MainRight from "../mainRight/MainRight"
+import Nav from "../../components/nav/Nav"
+import Feeds from "../../components/feeds/Feeds"
+import MainRight from "../../components/mainRight/MainRight"
 import './Main.css'
-import '../pages/Common.css'
+import '../../styles/Common.css'
 
 
 class Main extends React.Component {

@@ -1,0 +1,55 @@
+.searchBoxContainer {
+    width:215px;
+    position: relative;
+}
+
+.searchBox, .searchBoxInput {
+    width: 100%;
+    height: 28px;
+    position: absolute;
+}
+
+.searchBox {
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 6px;
+    font-weight: 300;
+    color: #999;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    cursor: text;
+}
+
+.searchBoxInput {
+    width: 100%;
+    display: none;
+    padding: 3px 10px 3px 26px;
+}
+
+.searchResult {
+    margin-top: 28px;
+    width: 215px;
+}
+
+
+.firstSearch {
+    width: 215px;
+    height: 28px;
+    padding: 3px 10px 3px 26px;
+    border: 1px solid #dbdbdb;
+}
+
+.secondSearch {
+    width: 215px;
+    height: 28px;
+    padding: 3px 10px 3px 26px;
+    border: 1px solid #dbdbdb;
+}
+
+.thirdSearch {
+    width: 215px;
+    height: 28px;
+    padding: 3px 10px 3px 26px;
+    border: 1px solid #dbdbdb;
+}

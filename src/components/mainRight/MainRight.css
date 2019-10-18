@@ -1,0 +1,9 @@
+.mainRight {
+    width: 293px;
+    margin-left: 30px;
+}
+
+.rightProfile {
+    display: flex;
+    padding: 5px 0;
+}

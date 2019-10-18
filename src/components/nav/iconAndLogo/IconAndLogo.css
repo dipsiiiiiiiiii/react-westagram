@@ -1,0 +1,21 @@
+.iconAndLogo{
+    display: flex;
+}
+
+.logoIcon {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png");
+    width: 24px;
+}
+
+.verticalLine {
+    content: "";
+    border-left: 1px solid rgb(179, 176, 176);
+    height: 28px;
+    margin: 0 15px;
+}
+
+.mainlogoImg {
+    background-image: url("../../../images/logo_text.png");
+    width: 103px;
+    margin: 0;
+}

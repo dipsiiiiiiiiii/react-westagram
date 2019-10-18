@@ -1,0 +1,23 @@
+.navList {
+    display: flex;
+}
+
+.navList li {
+    width: 24px;
+    height: 23px;
+    background-size: 100%;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.searchImg {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png");
+}
+
+.heartImg {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png");
+}
+
+.peopleImg {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png");
+}
