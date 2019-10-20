@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import UserInfo from '../userInfo/UserInfo'
-import './StoryBox.css'
+import './StoryBox.scss'
 
 class StoryBox extends Component {
     render() {
-        const { data } = this.props;
+        const {data} = this.props;
         return ( 
             <div className="rightStory">
                 <div className="rightRecommendTop">

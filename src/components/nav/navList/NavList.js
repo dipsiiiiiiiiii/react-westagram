@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './NavList.css'
+import './NavList.scss'
 
 class NavList extends Component {
     render() {

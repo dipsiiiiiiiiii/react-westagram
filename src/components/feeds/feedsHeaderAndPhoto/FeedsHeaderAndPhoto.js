@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './FeedsHeaderAndPhoto.css'
+import './FeedsHeaderAndPhoto.scss'
 
 class FeedsHeaderAndPhoto extends Component {
     render() {

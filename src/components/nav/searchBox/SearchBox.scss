@@ -1,3 +1,6 @@
+$border-standard: 1px solid #dbdbdb;
+$searchBox-padding: 3px 10px 3px 26px;
+
 .searchBoxContainer {
     width:215px;
     position: relative;
@@ -17,14 +20,14 @@
     color: #999;
     font-size: 14px;
     border-radius: 3px;
-    border: 1px solid #dbdbdb;
+    border: $border-standard;
     cursor: text;
 }
 
 .searchBoxInput {
     width: 100%;
     display: none;
-    padding: 3px 10px 3px 26px;
+    padding: $searchBox-padding;
 }
 
 .searchResult {
@@ -33,23 +36,9 @@
 }
 
 
-.firstSearch {
+.searchBoxResult {
     width: 215px;
     height: 28px;
-    padding: 3px 10px 3px 26px;
-    border: 1px solid #dbdbdb;
-}
-
-.secondSearch {
-    width: 215px;
-    height: 28px;
-    padding: 3px 10px 3px 26px;
-    border: 1px solid #dbdbdb;
-}
-
-.thirdSearch {
-    width: 215px;
-    height: 28px;
-    padding: 3px 10px 3px 26px;
-    border: 1px solid #dbdbdb;
+    padding: $searchBox-padding;
+    border: $border-standard;
 }

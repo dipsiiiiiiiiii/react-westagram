@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './CommentWritingSection.css'
+import './CommentWritingSection.scss'
 
 class CommentWritingSection extends Component {
     render() {

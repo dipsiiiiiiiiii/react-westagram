@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './UserInfo.css'
+import './UserInfo.scss'
 
 
 class UserInfo extends Component {

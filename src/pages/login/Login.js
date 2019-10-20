@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Login.scss';
-import '../../styles/Common.css';
+import '../../styles/Common.scss';
 
 import LoginForm from "../../components/loginForm/LoginForm"
 import LogoImg from "../../components/loginForm/LogoImg"

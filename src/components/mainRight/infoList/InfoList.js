@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './InfoList.css'
+import './InfoList.scss'
 
 class InfoList extends Component {
     render() {

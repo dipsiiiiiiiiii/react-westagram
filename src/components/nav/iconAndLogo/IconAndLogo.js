@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom"
-import './IconAndLogo.css'
+import './IconAndLogo.scss'
 
 class IconAndLogo extends Component {
     render() {

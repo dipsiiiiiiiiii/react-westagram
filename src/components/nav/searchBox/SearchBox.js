@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './SearchBox.css'
+import './SearchBox.scss'
 
 class SearchBox extends Component {
     constructor(){
@@ -9,10 +9,9 @@ class SearchBox extends Component {
         inputDisplayStyle: "none",
         searchDivDisplayStyle: "block"
       }
-      this.handleSearch = this.handleSearch.bind(this)
     }
 
-    handleSearch(){
+    handleSearch = () => {
       this.setState({
         inputDisplayStyle: "block",
         searchDivDisplayStyle: "none"
@@ -20,24 +19,29 @@ class SearchBox extends Component {
     }
 
     render() {
+      const {
+        inputDisplayStyle,
+        searchDivDisplayStyle,
+        resultDisplayStyle
+      } = this.state
         return (
                 <div className="searchBoxContainer">
                   <input
                     className="searchBoxInput"
-                    style={{display: this.state.inputDisplayStyle }}
+                    style={{display: inputDisplayStyle }}
                     type="text" 
                     placeholder="검색" />
                   <div
-                    style={{display: this.state.searchDivDisplayStyle}}
+                    style={{display: searchDivDisplayStyle}}
                     onClick={this.handleSearch}
                     className="searchBox">검색
                   </div>
                   <div
                     className="searchResult"
-                    style={{display: this.state.resultDisplayStyle}}>
-                      <div className="firstSearch">wecode</div>
-                      <div className="secondSearch">weCode</div>
-                      <div className="thirdSearch">wew</div>
+                    style={{display: resultDisplayStyle}}>
+                      <div className="searchBoxResult">wecode</div>
+                      <div className="ssearchBoxResult">weCode</div>
+                      <div className="tsearchBoxResult">wew</div>
                   </div>
                 </div>
         )

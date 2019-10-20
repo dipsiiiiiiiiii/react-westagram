@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Feeds.css'
+import './Feeds.scss'
 import FeedsHeader from './feedsHeaderAndPhoto/FeedsHeaderAndPhoto'
 import LikeSection from './likeSection/LikeSection'
 import CommentUploadedBox from './commentUploadedBox/CommentUploadedBox'
@@ -13,11 +13,9 @@ class Feeds extends Component {
         items: [ ],
         opacity: 0.3
       }
-      this.handleColor = this.handleColor.bind(this)
-      this.handleSubmit = this.handleSubmit.bind(this)
     }
 
-    handleSubmit(e){
+    handleSubmit = (e) => {
       e.preventDefault();
 
       const newItem = {
@@ -29,15 +27,17 @@ class Feeds extends Component {
         items: prevState.items.concat(newItem),
         value: '',
         opacity: 0.3
-      }))}
+        })
+      )
+    }
     }
 
-    handleColor(e) {
+    handleColor= (e)=>  {
       this.setState({value: e.target.value}
           , ()=>{
             let opacity = (this.state.value ? 1 : 0.3)
             this.setState({
-              opacity: opacity
+              opacity
             })
           }
           )}

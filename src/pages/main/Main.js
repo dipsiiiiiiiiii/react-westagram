@@ -3,7 +3,7 @@ import Nav from "../../components/nav/Nav"
 import Feeds from "../../components/feeds/Feeds"
 import MainRight from "../../components/mainRight/MainRight"
 import './Main.css'
-import '../../styles/Common.css'
+import '../../styles/Common.scss'
 
 
 class Main extends React.Component {

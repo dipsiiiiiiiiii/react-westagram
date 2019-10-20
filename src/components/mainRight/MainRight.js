@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './MainRight.css'
+import './MainRight.scss'
 import StoryBox from './storyBox/StoryBox'
 import InfoList from './infoList/InfoList'
 import UserInfo from './userInfo/UserInfo'

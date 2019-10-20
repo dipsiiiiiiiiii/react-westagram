@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './CommentUploadedBox.css'
+import './CommentUploadedBox.scss'
 
 class CommentUploadedBox extends Component {
 

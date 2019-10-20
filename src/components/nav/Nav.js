@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Nav.css'
+import './Nav.scss'
 import IconAndLogo from './iconAndLogo/IconAndLogo'
 import SearchBox from './searchBox/SearchBox'
 import NavList from './navList/NavList'
