@@ -16,10 +16,10 @@ class LoginForm extends Component {
     handleChange(e){
         // const state = this.state;
 
-        const { 
-            userId,
-            userPw
-        } = this.state;
+        // const { 
+        //     userId,
+        //     userPw
+        // } = this.state;
 
         // const userId = this.state.userId;
         // const userPw = this.state.userPw;
@@ -27,7 +27,7 @@ class LoginForm extends Component {
         this.setState({
             [e.target.name]: e.target.value
         }, () => {
-            let opacity = (userId && userPw )? 1 :  0.3
+            let opacity = (this.state.userId && this.state.userPw )? 1 :  0.3
                 this.setState({
                     opacity
                 })

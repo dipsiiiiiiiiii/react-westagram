@@ -16,7 +16,8 @@ class CommentWritingSection extends Component {
                     <button
                         className="commentBtn" 
                         type="submit"
-                        style={{opacity: this.props.opacity}}>게시</button>
+                        style={{opacity: this.props.opacity}}>게시
+                    </button>
                 </form>
             </section>    
         )
