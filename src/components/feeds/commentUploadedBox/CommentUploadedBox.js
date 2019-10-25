@@ -2,14 +2,6 @@ import React, { Component } from 'react'
 import './CommentUploadedBox.scss'
 
 class CommentUploadedBox extends Component {
-
-    constructor(){
-        super()
-        this.state={
-
-        }
-    }
-    
     render() {
         return (
             <div>

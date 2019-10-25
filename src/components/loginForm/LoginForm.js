@@ -14,20 +14,10 @@ class LoginForm extends Component {
     }
     
     handleChange(e){
-        // const state = this.state;
-
-        // const { 
-        //     userId,
-        //     userPw
-        // } = this.state;
-
-        // const userId = this.state.userId;
-        // const userPw = this.state.userPw;
-
         this.setState({
             [e.target.name]: e.target.value
         }, () => {
-            let opacity = (this.state.userId && this.state.userPw )? 1 :  0.3
+                let opacity = (this.state.userId && this.state.userPw )? 1 :  0.3
                 this.setState({
                     opacity
                 })
@@ -51,7 +41,10 @@ class LoginForm extends Component {
                     type="password"
                     placeholder="비밀번호"
                     name="userPw" />
-                <LoginBtn backgroundOpacity={this.state.opacity}/>
+                <LoginBtn backgroundOpacity={this.state.opacity}
+                        email={this.state.userId}
+                        password={this.state.userPw}
+                />
                 <div className="lostPw">비밀번호를 잊으셨나요?</div>
             </div>
         )

@@ -8,7 +8,7 @@ class NavList extends Component {
                <ul className="navList">
                   <li className="searchImg"></li>
                   <li className="heartImg"></li>
-                  <li className="peopleImg"></li>
+                  <li className="peopleImg"><button /></li>
                 </ul> 
             </div>
         )

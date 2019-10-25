@@ -23,10 +23,10 @@ class Feeds extends Component {
         id : Date.now()
       };
       if(this.state.value){
-      this.setState((prevState) => ({
-        items: prevState.items.concat(newItem),
-        value: '',
-        opacity: 0.3
+        this.setState((prevState) => ({
+          items: prevState.items.concat(newItem),
+          value: '',
+          opacity: 0.3
         })
       )
     }
